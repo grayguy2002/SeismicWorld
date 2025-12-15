@@ -80,7 +80,7 @@ For inference and visualization:
 - **Purpose**: Pretraining dataset with diverse geological scenarios
 - **Size**: 2,000 sequences with timesteps T ∈ [6, 30]
 - **Scenarios**: CO2 injection, waterflooding, gas migration
-- **Availability**: [Dataset link to be added]
+- **Availability**: [Google Drive](https://drive.google.com/drive/folders/1CciHxWll7O_C8GGCW2Hx5QjAJWREywz6?usp=drive_link)
 
 ### Sleipner Field Data
 - **Purpose**: Real-world benchmark evaluation
@@ -93,7 +93,12 @@ For inference and visualization:
 Due to GitHub file size limitations, model checkpoints are not included in this repository. You can:
 
 1. Train your own models using the provided notebooks
-2. Download pretrained checkpoints from: [Link to be added]
+2. Download pretrained checkpoints and visualization results from: [Google Drive](https://drive.google.com/drive/folders/1cdUxqgsaBTtFvWjvIbzEk4DH9T9L8yFR?usp=drive_link)
+
+The Google Drive folder contains:
+- All model checkpoints (`.pth` files)
+- Intermediate visualization results
+- Training outputs
 
 Available checkpoints:
 - `seismic_world_best_finetuned.pth` (~2.5GB)
