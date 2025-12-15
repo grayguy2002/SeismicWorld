@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# PyTorch Model Checkpoints (大文件)
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# 数据集文件 (大文件)
+*.sgy
+*.h5
+*.hdf5
+*.npy
+*.npz
+dataset/
+ckp_u_pre_ae/
+seismic_world_checkpoints/
+
+# 压缩文件
+*.zip
+*.rar
+*.tar.gz
+*.tar
+*.7z
+
+# PDF文件 (可选择性保留小的文档)
+*.pdf
+
+# Office文件
+*.pptx
+*.docx
+*.xlsx
+
+# 临时文件
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# 系统文件
+.DS_Store
+Thumbs.db
+*.png

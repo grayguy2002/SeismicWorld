@@ -1,0 +1,7 @@
+项目文件说明
+
+ValidationOnWholeField.ipynb
+- 用于复现大部分文章成图，也包括SW各部分的训练。
+
+其余文件是辅助文件，或者是中间文件，运行记录保留。
+完整output cell参见各文件中output cell的脚本提示。

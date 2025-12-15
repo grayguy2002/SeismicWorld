@@ -1,0 +1,29 @@
+项目文件说明
+
+运行此项目，只需要关注和运行 `models` 文件夹中的主程序。
+
+以下是文件夹内各主要文件和目录的用途简介：
+
+- SeismicWorld (文件夹):
+  项目的核心代码目录，包含了模型、主程序等。运行项目请进入此文件夹。
+
+- legacy (文件夹):
+  存放一些旧的或已弃用的代码，供参考或备份。
+
+- functions.py:
+  一个通用的功能模块，存放了项目中被多处调用的函数。
+
+- modeling_internlm.py:
+  定义了 InternLM 模型结构的文件。
+
+- qformer.py:
+  实现了 Q-Former 模型的代码，这通常是视觉语言模型中的一个组件。
+
+- ldm_utilities.py / magvit_v2.py / magvit_v2_ldm.py:
+  这些文件与模型实现相关，分别定义了 Latent Diffusion Model (LDM) 的工具函数和 MagViT V2 模型。
+
+- utilities.py:
+  存放了项目所需的其他工具函数。
+
+- utilities.ipynb:
+  这是一个 Jupyter Notebook 文件，通常用于代码的交互式开发、实验或数据分析。
